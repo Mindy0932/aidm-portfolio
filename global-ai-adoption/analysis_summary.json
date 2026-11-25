@@ -1,0 +1,1555 @@
+{
+  "source": "Atharva Soundankar, Impact of AI on Digital Media (2020-2025), Kaggle",
+  "sha256": "53b52d3d5fef30db9f575852ddcf6cbe347e049aef4de145f689f456fbf7a514",
+  "method": "Unweighted record means; annual job loss uses median; tool distributions use counts.",
+  "limitations": "Sampling and observational provenance are undocumented. Results describe this sample only; no causal or population inference.",
+  "quality": {
+    "rows": 200,
+    "fields": 12,
+    "countries": 10,
+    "industries": 10,
+    "years": [
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "missing_by_field": {
+      "Country": 0,
+      "Year": 0,
+      "Industry": 0,
+      "AI Adoption Rate (%)": 0,
+      "AI-Generated Content Volume (TBs per year)": 0,
+      "Job Loss Due to AI (%)": 0,
+      "Revenue Increase Due to AI (%)": 0,
+      "Human-AI Collaboration Rate (%)": 0,
+      "Top AI Tools Used": 0,
+      "Regulation Status": 0,
+      "Consumer Trust in AI (%)": 0,
+      "Market Share of AI Companies (%)": 0
+    },
+    "exact_duplicate_rows": 0,
+    "out_of_range_rates": {
+      "AI Adoption Rate (%)": 0,
+      "Revenue Increase Due to AI (%)": 0,
+      "Job Loss Due to AI (%)": 0,
+      "Human-AI Collaboration Rate (%)": 0,
+      "Consumer Trust in AI (%)": 0,
+      "Market Share of AI Companies (%)": 0
+    }
+  },
+  "country_adoption": [
+    {
+      "Country": "Australia",
+      "n": 15,
+      "mean": 56.082
+    },
+    {
+      "Country": "Canada",
+      "n": 16,
+      "mean": 52.19
+    },
+    {
+      "Country": "China",
+      "n": 21,
+      "mean": 52.889048
+    },
+    {
+      "Country": "France",
+      "n": 24,
+      "mean": 56.518333
+    },
+    {
+      "Country": "Germany",
+      "n": 17,
+      "mean": 51.46
+    },
+    {
+      "Country": "India",
+      "n": 24,
+      "mean": 51.814583
+    },
+    {
+      "Country": "Japan",
+      "n": 22,
+      "mean": 54.209545
+    },
+    {
+      "Country": "South Korea",
+      "n": 20,
+      "mean": 50.5635
+    },
+    {
+      "Country": "UK",
+      "n": 20,
+      "mean": 64.692
+    },
+    {
+      "Country": "USA",
+      "n": 21,
+      "mean": 52.080952
+    }
+  ],
+  "country_regulation_adoption": [
+    {
+      "Country": "Australia",
+      "Regulation Status": "Lenient",
+      "n": 3,
+      "mean": 44.126667
+    },
+    {
+      "Country": "Australia",
+      "Regulation Status": "Moderate",
+      "n": 5,
+      "mean": 49.372
+    },
+    {
+      "Country": "Australia",
+      "Regulation Status": "Strict",
+      "n": 7,
+      "mean": 65.998571
+    },
+    {
+      "Country": "Canada",
+      "Regulation Status": "Lenient",
+      "n": 7,
+      "mean": 49.621429
+    },
+    {
+      "Country": "Canada",
+      "Regulation Status": "Moderate",
+      "n": 3,
+      "mean": 52.313333
+    },
+    {
+      "Country": "Canada",
+      "Regulation Status": "Strict",
+      "n": 6,
+      "mean": 55.125
+    },
+    {
+      "Country": "China",
+      "Regulation Status": "Lenient",
+      "n": 6,
+      "mean": 38.858333
+    },
+    {
+      "Country": "China",
+      "Regulation Status": "Moderate",
+      "n": 9,
+      "mean": 59.267778
+    },
+    {
+      "Country": "China",
+      "Regulation Status": "Strict",
+      "n": 6,
+      "mean": 57.351667
+    },
+    {
+      "Country": "France",
+      "Regulation Status": "Lenient",
+      "n": 7,
+      "mean": 55.595714
+    },
+    {
+      "Country": "France",
+      "Regulation Status": "Moderate",
+      "n": 10,
+      "mean": 56.61
+    },
+    {
+      "Country": "France",
+      "Regulation Status": "Strict",
+      "n": 7,
+      "mean": 57.31
+    },
+    {
+      "Country": "Germany",
+      "Regulation Status": "Lenient",
+      "n": 6,
+      "mean": 58.98
+    },
+    {
+      "Country": "Germany",
+      "Regulation Status": "Moderate",
+      "n": 5,
+      "mean": 49.186
+    },
+    {
+      "Country": "Germany",
+      "Regulation Status": "Strict",
+      "n": 6,
+      "mean": 45.835
+    },
+    {
+      "Country": "India",
+      "Regulation Status": "Lenient",
+      "n": 6,
+      "mean": 46.353333
+    },
+    {
+      "Country": "India",
+      "Regulation Status": "Moderate",
+      "n": 12,
+      "mean": 54.58
+    },
+    {
+      "Country": "India",
+      "Regulation Status": "Strict",
+      "n": 6,
+      "mean": 51.745
+    },
+    {
+      "Country": "Japan",
+      "Regulation Status": "Lenient",
+      "n": 7,
+      "mean": 47.167143
+    },
+    {
+      "Country": "Japan",
+      "Regulation Status": "Moderate",
+      "n": 8,
+      "mean": 52.41125
+    },
+    {
+      "Country": "Japan",
+      "Regulation Status": "Strict",
+      "n": 7,
+      "mean": 63.307143
+    },
+    {
+      "Country": "South Korea",
+      "Regulation Status": "Lenient",
+      "n": 8,
+      "mean": 52.44
+    },
+    {
+      "Country": "South Korea",
+      "Regulation Status": "Moderate",
+      "n": 7,
+      "mean": 55.622857
+    },
+    {
+      "Country": "South Korea",
+      "Regulation Status": "Strict",
+      "n": 5,
+      "mean": 40.478
+    },
+    {
+      "Country": "UK",
+      "Regulation Status": "Lenient",
+      "n": 7,
+      "mean": 57.877143
+    },
+    {
+      "Country": "UK",
+      "Regulation Status": "Moderate",
+      "n": 7,
+      "mean": 76.115714
+    },
+    {
+      "Country": "UK",
+      "Regulation Status": "Strict",
+      "n": 6,
+      "mean": 59.315
+    },
+    {
+      "Country": "USA",
+      "Regulation Status": "Lenient",
+      "n": 6,
+      "mean": 60.218333
+    },
+    {
+      "Country": "USA",
+      "Regulation Status": "Moderate",
+      "n": 10,
+      "mean": 52.949
+    },
+    {
+      "Country": "USA",
+      "Regulation Status": "Strict",
+      "n": 5,
+      "mean": 40.58
+    }
+  ],
+  "year_adoption": [
+    {
+      "Year": "2020",
+      "n": 47,
+      "mean": 50.992766
+    },
+    {
+      "Year": "2021",
+      "n": 32,
+      "mean": 57.571875
+    },
+    {
+      "Year": "2022",
+      "n": 31,
+      "mean": 52.988065
+    },
+    {
+      "Year": "2023",
+      "n": 29,
+      "mean": 59.677241
+    },
+    {
+      "Year": "2024",
+      "n": 23,
+      "mean": 51.258696
+    },
+    {
+      "Year": "2025",
+      "n": 38,
+      "mean": 54.262895
+    }
+  ],
+  "year_revenue": [
+    {
+      "Year": "2020",
+      "n": 47,
+      "mean": 44.20234
+    },
+    {
+      "Year": "2021",
+      "n": 32,
+      "mean": 42.991875
+    },
+    {
+      "Year": "2022",
+      "n": 31,
+      "mean": 35.484839
+    },
+    {
+      "Year": "2023",
+      "n": 29,
+      "mean": 33.028276
+    },
+    {
+      "Year": "2024",
+      "n": 23,
+      "mean": 42.450435
+    },
+    {
+      "Year": "2025",
+      "n": 38,
+      "mean": 38.327105
+    }
+  ],
+  "year_job_loss": [
+    {
+      "Year": "2020",
+      "n": 47,
+      "median": 29.26
+    },
+    {
+      "Year": "2021",
+      "n": 32,
+      "median": 27.745
+    },
+    {
+      "Year": "2022",
+      "n": 31,
+      "median": 21.71
+    },
+    {
+      "Year": "2023",
+      "n": 29,
+      "median": 26.28
+    },
+    {
+      "Year": "2024",
+      "n": 23,
+      "median": 26.42
+    },
+    {
+      "Year": "2025",
+      "n": 38,
+      "median": 23.48
+    }
+  ],
+  "industry_tool_counts": [
+    {
+      "Industry": "Automotive",
+      "Top AI Tools Used": "Bard",
+      "n": 1
+    },
+    {
+      "Industry": "Automotive",
+      "Top AI Tools Used": "ChatGPT",
+      "n": 3
+    },
+    {
+      "Industry": "Automotive",
+      "Top AI Tools Used": "Claude",
+      "n": 3
+    },
+    {
+      "Industry": "Automotive",
+      "Top AI Tools Used": "DALL-E",
+      "n": 5
+    },
+    {
+      "Industry": "Automotive",
+      "Top AI Tools Used": "Midjourney",
+      "n": 3
+    },
+    {
+      "Industry": "Automotive",
+      "Top AI Tools Used": "Stable Diffusion",
+      "n": 1
+    },
+    {
+      "Industry": "Automotive",
+      "Top AI Tools Used": "Synthesia",
+      "n": 3
+    },
+    {
+      "Industry": "Education",
+      "Top AI Tools Used": "Bard",
+      "n": 2
+    },
+    {
+      "Industry": "Education",
+      "Top AI Tools Used": "ChatGPT",
+      "n": 4
+    },
+    {
+      "Industry": "Education",
+      "Top AI Tools Used": "Claude",
+      "n": 3
+    },
+    {
+      "Industry": "Education",
+      "Top AI Tools Used": "DALL-E",
+      "n": 1
+    },
+    {
+      "Industry": "Education",
+      "Top AI Tools Used": "Midjourney",
+      "n": 1
+    },
+    {
+      "Industry": "Education",
+      "Top AI Tools Used": "Stable Diffusion",
+      "n": 4
+    },
+    {
+      "Industry": "Education",
+      "Top AI Tools Used": "Synthesia",
+      "n": 2
+    },
+    {
+      "Industry": "Finance",
+      "Top AI Tools Used": "Bard",
+      "n": 2
+    },
+    {
+      "Industry": "Finance",
+      "Top AI Tools Used": "ChatGPT",
+      "n": 1
+    },
+    {
+      "Industry": "Finance",
+      "Top AI Tools Used": "Claude",
+      "n": 3
+    },
+    {
+      "Industry": "Finance",
+      "Top AI Tools Used": "Midjourney",
+      "n": 4
+    },
+    {
+      "Industry": "Finance",
+      "Top AI Tools Used": "Stable Diffusion",
+      "n": 2
+    },
+    {
+      "Industry": "Finance",
+      "Top AI Tools Used": "Synthesia",
+      "n": 2
+    },
+    {
+      "Industry": "Gaming",
+      "Top AI Tools Used": "Bard",
+      "n": 4
+    },
+    {
+      "Industry": "Gaming",
+      "Top AI Tools Used": "ChatGPT",
+      "n": 4
+    },
+    {
+      "Industry": "Gaming",
+      "Top AI Tools Used": "Claude",
+      "n": 3
+    },
+    {
+      "Industry": "Gaming",
+      "Top AI Tools Used": "DALL-E",
+      "n": 2
+    },
+    {
+      "Industry": "Gaming",
+      "Top AI Tools Used": "Midjourney",
+      "n": 6
+    },
+    {
+      "Industry": "Gaming",
+      "Top AI Tools Used": "Stable Diffusion",
+      "n": 5
+    },
+    {
+      "Industry": "Gaming",
+      "Top AI Tools Used": "Synthesia",
+      "n": 3
+    },
+    {
+      "Industry": "Healthcare",
+      "Top AI Tools Used": "Bard",
+      "n": 1
+    },
+    {
+      "Industry": "Healthcare",
+      "Top AI Tools Used": "ChatGPT",
+      "n": 4
+    },
+    {
+      "Industry": "Healthcare",
+      "Top AI Tools Used": "Claude",
+      "n": 3
+    },
+    {
+      "Industry": "Healthcare",
+      "Top AI Tools Used": "DALL-E",
+      "n": 1
+    },
+    {
+      "Industry": "Healthcare",
+      "Top AI Tools Used": "Midjourney",
+      "n": 4
+    },
+    {
+      "Industry": "Healthcare",
+      "Top AI Tools Used": "Stable Diffusion",
+      "n": 3
+    },
+    {
+      "Industry": "Healthcare",
+      "Top AI Tools Used": "Synthesia",
+      "n": 1
+    },
+    {
+      "Industry": "Legal",
+      "Top AI Tools Used": "Bard",
+      "n": 3
+    },
+    {
+      "Industry": "Legal",
+      "Top AI Tools Used": "Claude",
+      "n": 1
+    },
+    {
+      "Industry": "Legal",
+      "Top AI Tools Used": "DALL-E",
+      "n": 5
+    },
+    {
+      "Industry": "Legal",
+      "Top AI Tools Used": "Midjourney",
+      "n": 3
+    },
+    {
+      "Industry": "Legal",
+      "Top AI Tools Used": "Stable Diffusion",
+      "n": 2
+    },
+    {
+      "Industry": "Legal",
+      "Top AI Tools Used": "Synthesia",
+      "n": 3
+    },
+    {
+      "Industry": "Manufacturing",
+      "Top AI Tools Used": "Bard",
+      "n": 2
+    },
+    {
+      "Industry": "Manufacturing",
+      "Top AI Tools Used": "ChatGPT",
+      "n": 4
+    },
+    {
+      "Industry": "Manufacturing",
+      "Top AI Tools Used": "Claude",
+      "n": 3
+    },
+    {
+      "Industry": "Manufacturing",
+      "Top AI Tools Used": "DALL-E",
+      "n": 1
+    },
+    {
+      "Industry": "Manufacturing",
+      "Top AI Tools Used": "Midjourney",
+      "n": 4
+    },
+    {
+      "Industry": "Manufacturing",
+      "Top AI Tools Used": "Stable Diffusion",
+      "n": 2
+    },
+    {
+      "Industry": "Manufacturing",
+      "Top AI Tools Used": "Synthesia",
+      "n": 2
+    },
+    {
+      "Industry": "Marketing",
+      "Top AI Tools Used": "Bard",
+      "n": 2
+    },
+    {
+      "Industry": "Marketing",
+      "Top AI Tools Used": "ChatGPT",
+      "n": 4
+    },
+    {
+      "Industry": "Marketing",
+      "Top AI Tools Used": "Claude",
+      "n": 2
+    },
+    {
+      "Industry": "Marketing",
+      "Top AI Tools Used": "DALL-E",
+      "n": 3
+    },
+    {
+      "Industry": "Marketing",
+      "Top AI Tools Used": "Midjourney",
+      "n": 3
+    },
+    {
+      "Industry": "Marketing",
+      "Top AI Tools Used": "Stable Diffusion",
+      "n": 2
+    },
+    {
+      "Industry": "Marketing",
+      "Top AI Tools Used": "Synthesia",
+      "n": 3
+    },
+    {
+      "Industry": "Media",
+      "Top AI Tools Used": "Bard",
+      "n": 4
+    },
+    {
+      "Industry": "Media",
+      "Top AI Tools Used": "ChatGPT",
+      "n": 4
+    },
+    {
+      "Industry": "Media",
+      "Top AI Tools Used": "Claude",
+      "n": 6
+    },
+    {
+      "Industry": "Media",
+      "Top AI Tools Used": "DALL-E",
+      "n": 5
+    },
+    {
+      "Industry": "Media",
+      "Top AI Tools Used": "Midjourney",
+      "n": 5
+    },
+    {
+      "Industry": "Media",
+      "Top AI Tools Used": "Stable Diffusion",
+      "n": 3
+    },
+    {
+      "Industry": "Media",
+      "Top AI Tools Used": "Synthesia",
+      "n": 4
+    },
+    {
+      "Industry": "Retail",
+      "Top AI Tools Used": "Bard",
+      "n": 3
+    },
+    {
+      "Industry": "Retail",
+      "Top AI Tools Used": "ChatGPT",
+      "n": 3
+    },
+    {
+      "Industry": "Retail",
+      "Top AI Tools Used": "Claude",
+      "n": 4
+    },
+    {
+      "Industry": "Retail",
+      "Top AI Tools Used": "DALL-E",
+      "n": 3
+    },
+    {
+      "Industry": "Retail",
+      "Top AI Tools Used": "Midjourney",
+      "n": 4
+    },
+    {
+      "Industry": "Retail",
+      "Top AI Tools Used": "Stable Diffusion",
+      "n": 3
+    },
+    {
+      "Industry": "Retail",
+      "Top AI Tools Used": "Synthesia",
+      "n": 1
+    }
+  ],
+  "year_industry_collaboration": [
+    {
+      "Year": "2020",
+      "Industry": "Automotive",
+      "n": 6,
+      "mean": 62.071667
+    },
+    {
+      "Year": "2020",
+      "Industry": "Education",
+      "n": 6,
+      "mean": 54.841667
+    },
+    {
+      "Year": "2020",
+      "Industry": "Finance",
+      "n": 5,
+      "mean": 58.362
+    },
+    {
+      "Year": "2020",
+      "Industry": "Gaming",
+      "n": 1,
+      "mean": 68.18
+    },
+    {
+      "Year": "2020",
+      "Industry": "Healthcare",
+      "n": 3,
+      "mean": 46.266667
+    },
+    {
+      "Year": "2020",
+      "Industry": "Legal",
+      "n": 3,
+      "mean": 64.833333
+    },
+    {
+      "Year": "2020",
+      "Industry": "Manufacturing",
+      "n": 6,
+      "mean": 58.743333
+    },
+    {
+      "Year": "2020",
+      "Industry": "Marketing",
+      "n": 3,
+      "mean": 33.32
+    },
+    {
+      "Year": "2020",
+      "Industry": "Media",
+      "n": 9,
+      "mean": 51.25
+    },
+    {
+      "Year": "2020",
+      "Industry": "Retail",
+      "n": 5,
+      "mean": 47.042
+    },
+    {
+      "Year": "2021",
+      "Industry": "Automotive",
+      "n": 2,
+      "mean": 41.755
+    },
+    {
+      "Year": "2021",
+      "Industry": "Education",
+      "n": 6,
+      "mean": 66.288333
+    },
+    {
+      "Year": "2021",
+      "Industry": "Finance",
+      "n": 1,
+      "mean": 36.03
+    },
+    {
+      "Year": "2021",
+      "Industry": "Gaming",
+      "n": 6,
+      "mean": 47.301667
+    },
+    {
+      "Year": "2021",
+      "Industry": "Healthcare",
+      "n": 2,
+      "mean": 26.33
+    },
+    {
+      "Year": "2021",
+      "Industry": "Legal",
+      "n": 2,
+      "mean": 32.835
+    },
+    {
+      "Year": "2021",
+      "Industry": "Manufacturing",
+      "n": 4,
+      "mean": 70.2925
+    },
+    {
+      "Year": "2021",
+      "Industry": "Marketing",
+      "n": 3,
+      "mean": 69.433333
+    },
+    {
+      "Year": "2021",
+      "Industry": "Media",
+      "n": 5,
+      "mean": 45.484
+    },
+    {
+      "Year": "2021",
+      "Industry": "Retail",
+      "n": 1,
+      "mean": 64.42
+    },
+    {
+      "Year": "2022",
+      "Industry": "Automotive",
+      "n": 6,
+      "mean": 55.363333
+    },
+    {
+      "Year": "2022",
+      "Industry": "Education",
+      "n": 1,
+      "mean": 74.08
+    },
+    {
+      "Year": "2022",
+      "Industry": "Finance",
+      "n": 2,
+      "mean": 23.13
+    },
+    {
+      "Year": "2022",
+      "Industry": "Gaming",
+      "n": 5,
+      "mean": 48.954
+    },
+    {
+      "Year": "2022",
+      "Industry": "Healthcare",
+      "n": 3,
+      "mean": 52.653333
+    },
+    {
+      "Year": "2022",
+      "Industry": "Legal",
+      "n": 2,
+      "mean": 36.33
+    },
+    {
+      "Year": "2022",
+      "Industry": "Manufacturing",
+      "n": 3,
+      "mean": 45.963333
+    },
+    {
+      "Year": "2022",
+      "Industry": "Marketing",
+      "n": 1,
+      "mean": 60.15
+    },
+    {
+      "Year": "2022",
+      "Industry": "Media",
+      "n": 5,
+      "mean": 49.438
+    },
+    {
+      "Year": "2022",
+      "Industry": "Retail",
+      "n": 3,
+      "mean": 46.356667
+    },
+    {
+      "Year": "2023",
+      "Industry": "Automotive",
+      "n": 1,
+      "mean": 41.73
+    },
+    {
+      "Year": "2023",
+      "Industry": "Education",
+      "n": 1,
+      "mean": 40.39
+    },
+    {
+      "Year": "2023",
+      "Industry": "Finance",
+      "n": 3,
+      "mean": 71.976667
+    },
+    {
+      "Year": "2023",
+      "Industry": "Gaming",
+      "n": 4,
+      "mean": 68.34
+    },
+    {
+      "Year": "2023",
+      "Industry": "Healthcare",
+      "n": 2,
+      "mean": 53.93
+    },
+    {
+      "Year": "2023",
+      "Industry": "Legal",
+      "n": 3,
+      "mean": 62.643333
+    },
+    {
+      "Year": "2023",
+      "Industry": "Manufacturing",
+      "n": 1,
+      "mean": 43.84
+    },
+    {
+      "Year": "2023",
+      "Industry": "Marketing",
+      "n": 6,
+      "mean": 63.095
+    },
+    {
+      "Year": "2023",
+      "Industry": "Media",
+      "n": 6,
+      "mean": 42.466667
+    },
+    {
+      "Year": "2023",
+      "Industry": "Retail",
+      "n": 2,
+      "mean": 56.14
+    },
+    {
+      "Year": "2024",
+      "Industry": "Automotive",
+      "n": 3,
+      "mean": 54.726667
+    },
+    {
+      "Year": "2024",
+      "Industry": "Finance",
+      "n": 2,
+      "mean": 38.91
+    },
+    {
+      "Year": "2024",
+      "Industry": "Gaming",
+      "n": 3,
+      "mean": 64.68
+    },
+    {
+      "Year": "2024",
+      "Industry": "Healthcare",
+      "n": 3,
+      "mean": 64.263333
+    },
+    {
+      "Year": "2024",
+      "Industry": "Legal",
+      "n": 2,
+      "mean": 52.485
+    },
+    {
+      "Year": "2024",
+      "Industry": "Manufacturing",
+      "n": 2,
+      "mean": 42.17
+    },
+    {
+      "Year": "2024",
+      "Industry": "Marketing",
+      "n": 3,
+      "mean": 43.076667
+    },
+    {
+      "Year": "2024",
+      "Industry": "Media",
+      "n": 4,
+      "mean": 49.7475
+    },
+    {
+      "Year": "2024",
+      "Industry": "Retail",
+      "n": 1,
+      "mean": 72.35
+    },
+    {
+      "Year": "2025",
+      "Industry": "Automotive",
+      "n": 1,
+      "mean": 68.19
+    },
+    {
+      "Year": "2025",
+      "Industry": "Education",
+      "n": 3,
+      "mean": 53.213333
+    },
+    {
+      "Year": "2025",
+      "Industry": "Finance",
+      "n": 1,
+      "mean": 82.68
+    },
+    {
+      "Year": "2025",
+      "Industry": "Gaming",
+      "n": 8,
+      "mean": 46.18
+    },
+    {
+      "Year": "2025",
+      "Industry": "Healthcare",
+      "n": 4,
+      "mean": 72.1975
+    },
+    {
+      "Year": "2025",
+      "Industry": "Legal",
+      "n": 5,
+      "mean": 47.382
+    },
+    {
+      "Year": "2025",
+      "Industry": "Manufacturing",
+      "n": 2,
+      "mean": 53.85
+    },
+    {
+      "Year": "2025",
+      "Industry": "Marketing",
+      "n": 3,
+      "mean": 58.316667
+    },
+    {
+      "Year": "2025",
+      "Industry": "Media",
+      "n": 2,
+      "mean": 79.91
+    },
+    {
+      "Year": "2025",
+      "Industry": "Retail",
+      "n": 9,
+      "mean": 60.036667
+    }
+  ],
+  "country_job_loss": [
+    {
+      "Country": "Australia",
+      "n": 15,
+      "mean": 18.824
+    },
+    {
+      "Country": "Canada",
+      "n": 16,
+      "mean": 30.993125
+    },
+    {
+      "Country": "China",
+      "n": 21,
+      "mean": 29.085238
+    },
+    {
+      "Country": "France",
+      "n": 24,
+      "mean": 26.484167
+    },
+    {
+      "Country": "Germany",
+      "n": 17,
+      "mean": 28.104118
+    },
+    {
+      "Country": "India",
+      "n": 24,
+      "mean": 25.23125
+    },
+    {
+      "Country": "Japan",
+      "n": 22,
+      "mean": 25.509545
+    },
+    {
+      "Country": "South Korea",
+      "n": 20,
+      "mean": 25.5445
+    },
+    {
+      "Country": "UK",
+      "n": 20,
+      "mean": 27.1345
+    },
+    {
+      "Country": "USA",
+      "n": 21,
+      "mean": 20.708571
+    }
+  ],
+  "country_tool_recorded_market_metric": [
+    {
+      "Country": "Australia",
+      "Top AI Tools Used": "ChatGPT",
+      "n": 4,
+      "mean": 15.5725
+    },
+    {
+      "Country": "Australia",
+      "Top AI Tools Used": "Claude",
+      "n": 6,
+      "mean": 29.131667
+    },
+    {
+      "Country": "Australia",
+      "Top AI Tools Used": "DALL-E",
+      "n": 3,
+      "mean": 29.373333
+    },
+    {
+      "Country": "Australia",
+      "Top AI Tools Used": "Stable Diffusion",
+      "n": 1,
+      "mean": 20.93
+    },
+    {
+      "Country": "Australia",
+      "Top AI Tools Used": "Synthesia",
+      "n": 1,
+      "mean": 9.18
+    },
+    {
+      "Country": "Canada",
+      "Top AI Tools Used": "Bard",
+      "n": 1,
+      "mean": 22.15
+    },
+    {
+      "Country": "Canada",
+      "Top AI Tools Used": "ChatGPT",
+      "n": 1,
+      "mean": 15.34
+    },
+    {
+      "Country": "Canada",
+      "Top AI Tools Used": "Claude",
+      "n": 2,
+      "mean": 12.98
+    },
+    {
+      "Country": "Canada",
+      "Top AI Tools Used": "DALL-E",
+      "n": 3,
+      "mean": 34.81
+    },
+    {
+      "Country": "Canada",
+      "Top AI Tools Used": "Midjourney",
+      "n": 5,
+      "mean": 30.422
+    },
+    {
+      "Country": "Canada",
+      "Top AI Tools Used": "Synthesia",
+      "n": 4,
+      "mean": 33.11
+    },
+    {
+      "Country": "China",
+      "Top AI Tools Used": "Bard",
+      "n": 2,
+      "mean": 20.895
+    },
+    {
+      "Country": "China",
+      "Top AI Tools Used": "ChatGPT",
+      "n": 3,
+      "mean": 27.363333
+    },
+    {
+      "Country": "China",
+      "Top AI Tools Used": "Claude",
+      "n": 1,
+      "mean": 32.54
+    },
+    {
+      "Country": "China",
+      "Top AI Tools Used": "DALL-E",
+      "n": 3,
+      "mean": 30.616667
+    },
+    {
+      "Country": "China",
+      "Top AI Tools Used": "Midjourney",
+      "n": 8,
+      "mean": 24.5425
+    },
+    {
+      "Country": "China",
+      "Top AI Tools Used": "Stable Diffusion",
+      "n": 2,
+      "mean": 39.28
+    },
+    {
+      "Country": "China",
+      "Top AI Tools Used": "Synthesia",
+      "n": 2,
+      "mean": 22.595
+    },
+    {
+      "Country": "France",
+      "Top AI Tools Used": "Bard",
+      "n": 2,
+      "mean": 37.16
+    },
+    {
+      "Country": "France",
+      "Top AI Tools Used": "ChatGPT",
+      "n": 5,
+      "mean": 28.194
+    },
+    {
+      "Country": "France",
+      "Top AI Tools Used": "Claude",
+      "n": 2,
+      "mean": 7.575
+    },
+    {
+      "Country": "France",
+      "Top AI Tools Used": "DALL-E",
+      "n": 3,
+      "mean": 18.436667
+    },
+    {
+      "Country": "France",
+      "Top AI Tools Used": "Midjourney",
+      "n": 2,
+      "mean": 29.885
+    },
+    {
+      "Country": "France",
+      "Top AI Tools Used": "Stable Diffusion",
+      "n": 5,
+      "mean": 33.666
+    },
+    {
+      "Country": "France",
+      "Top AI Tools Used": "Synthesia",
+      "n": 5,
+      "mean": 27.738
+    },
+    {
+      "Country": "Germany",
+      "Top AI Tools Used": "Bard",
+      "n": 4,
+      "mean": 18.685
+    },
+    {
+      "Country": "Germany",
+      "Top AI Tools Used": "ChatGPT",
+      "n": 3,
+      "mean": 37.093333
+    },
+    {
+      "Country": "Germany",
+      "Top AI Tools Used": "Claude",
+      "n": 3,
+      "mean": 38.876667
+    },
+    {
+      "Country": "Germany",
+      "Top AI Tools Used": "DALL-E",
+      "n": 3,
+      "mean": 27.193333
+    },
+    {
+      "Country": "Germany",
+      "Top AI Tools Used": "Midjourney",
+      "n": 2,
+      "mean": 43.13
+    },
+    {
+      "Country": "Germany",
+      "Top AI Tools Used": "Stable Diffusion",
+      "n": 1,
+      "mean": 25.07
+    },
+    {
+      "Country": "Germany",
+      "Top AI Tools Used": "Synthesia",
+      "n": 1,
+      "mean": 22.23
+    },
+    {
+      "Country": "India",
+      "Top AI Tools Used": "Bard",
+      "n": 5,
+      "mean": 24.054
+    },
+    {
+      "Country": "India",
+      "Top AI Tools Used": "ChatGPT",
+      "n": 3,
+      "mean": 34.296667
+    },
+    {
+      "Country": "India",
+      "Top AI Tools Used": "Claude",
+      "n": 1,
+      "mean": 26.84
+    },
+    {
+      "Country": "India",
+      "Top AI Tools Used": "DALL-E",
+      "n": 4,
+      "mean": 26.765
+    },
+    {
+      "Country": "India",
+      "Top AI Tools Used": "Midjourney",
+      "n": 2,
+      "mean": 36.025
+    },
+    {
+      "Country": "India",
+      "Top AI Tools Used": "Stable Diffusion",
+      "n": 5,
+      "mean": 30.31
+    },
+    {
+      "Country": "India",
+      "Top AI Tools Used": "Synthesia",
+      "n": 4,
+      "mean": 24.8475
+    },
+    {
+      "Country": "Japan",
+      "Top AI Tools Used": "ChatGPT",
+      "n": 3,
+      "mean": 23.31
+    },
+    {
+      "Country": "Japan",
+      "Top AI Tools Used": "Claude",
+      "n": 7,
+      "mean": 31.494286
+    },
+    {
+      "Country": "Japan",
+      "Top AI Tools Used": "DALL-E",
+      "n": 2,
+      "mean": 12.995
+    },
+    {
+      "Country": "Japan",
+      "Top AI Tools Used": "Midjourney",
+      "n": 6,
+      "mean": 28.98
+    },
+    {
+      "Country": "Japan",
+      "Top AI Tools Used": "Stable Diffusion",
+      "n": 4,
+      "mean": 26.78
+    },
+    {
+      "Country": "South Korea",
+      "Top AI Tools Used": "Bard",
+      "n": 5,
+      "mean": 19.556
+    },
+    {
+      "Country": "South Korea",
+      "Top AI Tools Used": "ChatGPT",
+      "n": 4,
+      "mean": 29.4325
+    },
+    {
+      "Country": "South Korea",
+      "Top AI Tools Used": "Claude",
+      "n": 3,
+      "mean": 37.976667
+    },
+    {
+      "Country": "South Korea",
+      "Top AI Tools Used": "DALL-E",
+      "n": 1,
+      "mean": 37.77
+    },
+    {
+      "Country": "South Korea",
+      "Top AI Tools Used": "Midjourney",
+      "n": 4,
+      "mean": 30.7675
+    },
+    {
+      "Country": "South Korea",
+      "Top AI Tools Used": "Stable Diffusion",
+      "n": 3,
+      "mean": 18.776667
+    },
+    {
+      "Country": "UK",
+      "Top AI Tools Used": "ChatGPT",
+      "n": 3,
+      "mean": 24.856667
+    },
+    {
+      "Country": "UK",
+      "Top AI Tools Used": "Claude",
+      "n": 2,
+      "mean": 18.35
+    },
+    {
+      "Country": "UK",
+      "Top AI Tools Used": "DALL-E",
+      "n": 3,
+      "mean": 31.86
+    },
+    {
+      "Country": "UK",
+      "Top AI Tools Used": "Midjourney",
+      "n": 6,
+      "mean": 17.846667
+    },
+    {
+      "Country": "UK",
+      "Top AI Tools Used": "Stable Diffusion",
+      "n": 2,
+      "mean": 48.155
+    },
+    {
+      "Country": "UK",
+      "Top AI Tools Used": "Synthesia",
+      "n": 4,
+      "mean": 23.1475
+    },
+    {
+      "Country": "USA",
+      "Top AI Tools Used": "Bard",
+      "n": 5,
+      "mean": 28.282
+    },
+    {
+      "Country": "USA",
+      "Top AI Tools Used": "ChatGPT",
+      "n": 2,
+      "mean": 14.625
+    },
+    {
+      "Country": "USA",
+      "Top AI Tools Used": "Claude",
+      "n": 4,
+      "mean": 22.1325
+    },
+    {
+      "Country": "USA",
+      "Top AI Tools Used": "DALL-E",
+      "n": 1,
+      "mean": 4.66
+    },
+    {
+      "Country": "USA",
+      "Top AI Tools Used": "Midjourney",
+      "n": 2,
+      "mean": 11.84
+    },
+    {
+      "Country": "USA",
+      "Top AI Tools Used": "Stable Diffusion",
+      "n": 4,
+      "mean": 20.995
+    },
+    {
+      "Country": "USA",
+      "Top AI Tools Used": "Synthesia",
+      "n": 3,
+      "mean": 23.033333
+    }
+  ],
+  "industry_revenue": [
+    {
+      "Industry": "Automotive",
+      "n": 19,
+      "mean": 46.482632
+    },
+    {
+      "Industry": "Education",
+      "n": 17,
+      "mean": 39.543529
+    },
+    {
+      "Industry": "Finance",
+      "n": 14,
+      "mean": 36.257143
+    },
+    {
+      "Industry": "Gaming",
+      "n": 27,
+      "mean": 33.234444
+    },
+    {
+      "Industry": "Healthcare",
+      "n": 17,
+      "mean": 38.586471
+    },
+    {
+      "Industry": "Legal",
+      "n": 17,
+      "mean": 41.824118
+    },
+    {
+      "Industry": "Manufacturing",
+      "n": 18,
+      "mean": 42.807222
+    },
+    {
+      "Industry": "Marketing",
+      "n": 19,
+      "mean": 36.813684
+    },
+    {
+      "Industry": "Media",
+      "n": 31,
+      "mean": 43.719677
+    },
+    {
+      "Industry": "Retail",
+      "n": 21,
+      "mean": 37.679524
+    }
+  ]
+}
